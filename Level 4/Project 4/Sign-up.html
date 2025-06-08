@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<body>
+    <header>
+        <H2>Registration from</H2>
+    </header>
+
+    <main>
+        <form>
+            <hr>
+            <h4>Personal Information</h4>
+            <!-- Name -->
+            <label for="firstname">First name:</label>
+            <input type="text" name="name" id="firstname" required>
+            <br><br>
+            <label for="middlename">Middle name:</label>
+            <input type="text" name="name" id="middlename" required>
+            <br><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" name="name" id="lastname" required>
+            <br><br>
+            <!-- Date of birth -->
+            <label for="dob">Date of birth:</label>
+            <input type="date" value="date" id="dob" required>
+            <br><br>
+            <!-- Gender -->
+             <label>Gender:</label>
+             <input type="radio" name="gender" id="male">
+             <label for="male">Male</label>
+             <input type="radio" name="gender" id="female">
+             <label for="female">Female</label>
+             <br><br><hr>
+
+            <h4>Contact Information</h4>
+            <!-- Phone number -->
+            <label for="phnum">Phone number:</label>
+            <input type="tel" name="monumber" id="phnum" required>
+            <br><br>
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" name="mailing" id="email" required>
+            <br><br><hr>
+            <h4>Address details</h4>
+            <!-- Address -->
+            <label for="address">Address:</label>
+            <textarea name="Address" id="address" rows="2 cols=50" required></textarea>
+            <br><br>
+            <!-- Country -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            </select>
+            <br><br><hr>
+            <h4>Account Information</h4>
+            <label for="username">Username:</label>
+            <input type="text" name="usname" id="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+            <br><br>
+            <label for="confpassword">Confirm Password:</label>
+            <input type="password" name="confpassword" id="confpassword" required>
+            <br><br><hr>
+            <h4>Additional Information</h4>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="hobbies" value="music">
+            <label for="music">Music</label>
+            <br><br><hr>
+            <h4>Terms and conditions</h4>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to the Terms and Conditions</label>
+            <br><br><hr>
+            <label for="submit"></label>
+            <input type="Submit" value="Register" id="submit" >
+
+
+        
+        </form>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
